@@ -1,0 +1,1 @@
+docker run -d --mount type=bind,src=/root/csvserver/solution/inputFile,dst=/csvserver/inputdata --env CSVSERVER_BORDER=Orange -p127.0.0.1:9393:9300 infracloudio/csvserver:latest
